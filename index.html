@@ -9,15 +9,15 @@
 </head>
 <body>
     <header>
-        <h1 id="tittle">MEGA Survey Form</h1>
+        <h1 id="title">MEGA Survey Form</h1>
         <p id="description">Tel us about your MEGA collection</p>
     </header>
 
-    <form action="" id="survey">
+    <form action="" id="survey-form">
         <fieldset>
-        <label for="name-label" required>Enter your name: <input type="text" placeholder="Nicolas" name="name" id="name"></label>
-        <label for="email-label" required>Enter your Email: <input type="email" placeholder="mega@123.com" name="email" id="email"></label>
-        <label for="number-label">Insert your age:<span class="optional">(optional)</span> <input type="number" placeholder="18" name="age" id="number" max="100" min="5"></label>
+        <label for="name-label" id="name-label" required>Enter your name: <input type="text" placeholder="Nicolas" name="name" id="name"></label>
+        <label for="email-label" id="email-label" required>Enter your Email: <input type="email" placeholder="mega@123.com" name="email" id="email"></label>
+        <label for="number-label" id="number-label">Insert your age:<span class="optional">(optional)</span> <input type="number" placeholder="18" name="age" id="number" max="100" min="5"></label>
         </fieldset>
         <fieldset>
             <label for="">What is your favourite line from MEGA brands?
@@ -30,9 +30,8 @@
             </select>
             </label>
             <label for="radio-answer">Would you introduce your friend to MEGA products ?
-                <input type="radio" name="radio-answer" id="">Yes
-                <input type="radio" name="radio-answer" id="">No
-                <input type="radio" name="radio-answer" id="">Depends of where they live
+                <label for=""><input type="radio" name="radio-answer" id="" value="1">Yes</label>                <label for=""><input type="radio" name="radio-answer" id="" value="2">No</label>
+                <label for=""><input type="radio" name="radio-answer" id="" value="3">Depends of where they live</label>
             </label>
             <label for="">Which are your favourite things about MEGA?
                <label for="mini_figures"><input type="checkbox" name="" id="">The mini figures</label>
