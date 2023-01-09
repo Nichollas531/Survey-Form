@@ -30,7 +30,7 @@ body{
     display: block;
 }
 #submit{
-    background-color: darkgray;
+    background-color: #777;
     border: 2px outset brown;
     font-size: 20px;
     margin: 5px auto;
